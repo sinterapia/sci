@@ -17,5 +17,5 @@ export function CardTitle({ children, className = '' }: any) {
 }
 
 export function CardDescription({ children, className = '' }: any) {
-  return <p className={`text-sm text-gray-500 ${className}`}>{children}</div>
+  return <p className={`text-sm text-gray-500 ${className}`}>{children}</p>
 }
